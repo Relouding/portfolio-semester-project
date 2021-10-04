@@ -1,0 +1,271 @@
+
+/* Body */
+body {
+  background-color: #fff;
+  background-size: 100%;
+  background-repeat: repeat;
+  margin: 0;
+}
+
+/* Header image */
+header img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+/* Font styles */
+h1 {
+  color: #000;
+  font-family: futura;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+h2 {
+  color: #000;
+  font-family: futura;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+}
+
+h3 {
+  color: #000;
+  font-family: arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+}
+
+p {
+  color: #000;
+  font-family: Souvenir;
+  font-size: 1.5em;
+}
+
+/* Font shadow */
+.home-shadow {
+  text-shadow: 1.5px 1.5px #FF5F71;
+}
+
+.explore-shadow {
+  text-shadow: 1.5px 1.5px #FEBA69;    
+}
+
+.spaces-shadow {
+  text-shadow: 1.5px 1.5px #EFFF60;    
+}
+
+.events-shadow {
+  text-shadow: 1.5px 1.5px #55FF68;    
+}
+
+.about-shadow {
+  text-shadow: 1.5px 1.5px #6A84FF;    
+}
+
+.involve-shadow {
+  text-shadow: 1.5px 1.5px #DD8AFE;    
+}
+
+/* Main */
+main {
+  max-width: 95%;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+main h1 {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+main h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+main h3 {
+  margin-top: 10px;
+}
+
+main p {
+  margin-top: 15px;
+}
+
+/* Info boxes w link */
+#box-wrapper {
+  width: 100%;
+}
+
+.box {
+  max-width: 95%;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 10px 10px 10px 10px;
+  overflow-wrap: break-word;
+  text-align: justify;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: 2px solid #e8e8e8;
+}
+
+.box h2 {
+  text-shadow: 1px 1px #999;
+}
+
+.box p {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Navigation */
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #000;
+  width: 100%;
+  overflow: auto;
+}
+
+.nav a {
+  float: left;
+  padding: 1.5%;
+  font-size: 1em;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #222;
+}
+
+.home {
+  color: #FF5F71;
+}
+
+.explore {
+  color: #FEBA69;    
+}
+
+.spaces {
+  color: #EFFF60;    
+}
+
+.events {
+  color: #55FF68;    
+}
+
+.about {
+  color: #6A84FF;    
+}
+
+.involve {
+  color: #DD8AFE;    
+}
+
+/* Line */
+.line {
+  width: 100%;
+  height: 5px;
+}
+
+.home-line {
+  background-color: #FF5F71;
+}
+
+.explore-line {
+  background-color: #FEBA69;    
+}
+
+.spaces-line {
+  background-color: #EFFF60;    
+}
+
+.events-line {
+  background-color: #55FF68;    
+}
+
+.about-line {
+  background-color: #6A84FF;    
+}
+
+.involve-line {
+  background-color: #DD8AFE;    
+}
+
+/* Footer */
+footer {
+  height: auto;
+  margin: auto;
+  padding: 30px 30px 30px 30px;
+  background-color: #000;
+  text-align: center;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav a {
+    float: none;
+    display: block;
+  }
+  main h1 {
+    font-size: 2em;
+  }
+  main h2 {
+    font-size: 1.8em;
+  }
+  main h3 {
+    font-size: 1.5em;
+  }
+  main p {
+    font-size: 1.2em;
+  }
+  .box {
+    width: 90%;
+  }
+  .box h2 {
+    font-size: 1.5em;
+  }
+  .box p {
+    font-size: 1.2em;
+  }
+}
+
+/* Fonts */
+@font-face {
+  font-family: futura;
+  src: url("../fonts/FuturaBold.otf")
+}
+
+@font-face {
+  font-family: Souvenir;
+  src: url("../fonts/Souvenir.ttf")
+}
